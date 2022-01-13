@@ -45,3 +45,9 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'dotenv-rails'
 end
+
+group :test do
+  gem 'capybara'
+  gem 'poltergeist'
+  gem 'database_cleaner'
+end
