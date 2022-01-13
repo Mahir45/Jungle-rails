@@ -1,15 +1,11 @@
-<section class="cart-show">
+<<section class="cart-show">
 
   <header class="page-header">
     <h1>My Cart</h1>
   </header>
-<% if enhanced_cart.empty? %>
 
-    <div class="alert alert-warning">
-      <p>The cart is empty, click here to get back to <%= link_to 'the main page', :root %>.</p>
-    </div>
+  <% if enhanced_cart.present? %>
 
-  <% else %> 
   <div class="panel panel-default items">
     <table class="table table-bordered">
       <thead>
@@ -46,13 +42,20 @@
           data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
           data-amount="<%= cart_subtotal_cents %>"
           data-name="Jungle"
-          data-description="Khurram Virani's Jungle Order"
+          data-description="Ruby's Jungle Order"
           data-locale="auto"
-          data-email="kvirani@gmail.com"
+          data-email="ruby@rails.com"
           data-currency="cad">
         </script>
       <% end %>
     </div>
   </div>
- <% end %>
+
+  <% else %>
+    <h5 class="alert alert-info" role="alert">
+  Cart is empty.
+</h5>
+ <%= link_to "Continue Shopping", root_path, class: 'btn btn-primary' %>
+  <% end %>
+
 </section>
