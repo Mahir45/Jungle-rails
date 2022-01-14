@@ -9,6 +9,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 2. Remove Gemfile.lock
 3. Replace Gemfile with version provided [here](https://gist.githubusercontent.com/FrancisBourgouin/831795ae12c4704687a0c2496d91a727/raw/ce8e2104f725f43e56650d404169c7b11c33a5c5/Gemfile)
 
+https://github.com/Mahir45/Jungle-rails/blob/master/app/assets/images/Screen%20Shot%202022-01-13%20at%202.20.37%20PM.png?raw=true 
+![](https://github.com/Mahir45/Jungle-rails/blob/master/app/assets/images/Screen%20Shot%202022-01-13%20at%202.20.37%20PM.png?raw=true )
+
+![](https://github.com/Mahir45/Jungle-rails/blob/master/app/assets/images/Screen%20Shot%202022-01-14%20at%2012.58.13%20AM.png?raw=true)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
