@@ -1,6 +1,19 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Ruby (-v2.6.6) on Rails (-v4.2) as a student assignment for Lighhouse Labs full-stack web development program. TDD (test-driven development) practices are followed using RSpec library. Stripe platform is used for payments.
+
+## Features
+Admin users can list and create new categories
+
+Admins can add new products using the new category
+
+Visitors can go to the registration page from any page in order to create an account
+
+Visitors can sign up for a user account with e-mail, password, first name and last name
+
+Visitors can sign in using e-mail and password
+
+Visitors can log out from any page
 
 ## Additional Steps for Apple M1 Machines
 
